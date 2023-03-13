@@ -11,7 +11,7 @@ function basicCalculator(mathNum1, mathNum2, mathSymbol) {
     } else if (mathSymbol.toUpperCase() === "X" || mathSymbol === "*") {
       return console.log(mathNum1 * mathNum2);
     } else if (mathSymbol === "/" || mathSymbol === "\\") {
-      return console.log(mathNum1.Parseint / mathNum2);
+      return console.log(mathNum1 / mathNum2);
     } else {
       return console.log(mathNum1 - mathNum2);
     }
