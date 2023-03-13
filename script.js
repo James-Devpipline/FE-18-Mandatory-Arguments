@@ -16,7 +16,7 @@ function basicCalculator(mathNum1, mathNum2, mathSymbol) {
       return console.log(mathNum1 - mathNum2);
     }
   } catch {
-    return console.error("Invalid symbol used for calcuator");
+    return console.error("Invalid symbol used for calculator");
   }
 }
 
@@ -24,18 +24,18 @@ const calcAlert = alert(
   "This is a basic calculator. You will be given 3 prompts. First one enter a number, then do the same for the second. The third prompt give any basic math operators and then view the console log \n \n(Accepted Math Operators +, *, x, /, \\, -"
 );
 
-let calcuatorPrompt1 = prompt(
+let calculatorPrompt1 = prompt(
   "Please enter your first number for the calculator"
 );
-let calcuatorPrompt2 = prompt(
+let calculatorPrompt2 = prompt(
   "Please enter your second number for the calculator"
 );
-let calcuatorPrompt3 = prompt(
+let calculatorPrompt3 = prompt(
   "Please enter your math operator \n \n(Accepted Math Operators +, *, x, /, \\, -"
 );
 
 basicCalculator(
-  parseInt(calcuatorPrompt1),
-  parseInt(calcuatorPrompt2),
-  calcuatorPrompt3
+  parseInt(calculatorPrompt1),
+  parseInt(calculatorPrompt2),
+  calculatorPrompt3
 );
